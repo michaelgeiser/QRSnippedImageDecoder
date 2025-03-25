@@ -1,0 +1,43 @@
+body {
+    width: 400px;  /* 4 inches at 100dpi */
+    height: 500px; /* 5 inches at 100dpi */
+    margin: 0;
+    padding: 20px;
+}
+
+.qr-paste-area {
+    width: 300px;  /* 3 inches */
+    height: 300px; /* 3 inches */
+    border: 2px dashed black;
+    background-color: white;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.qr-paste-area:hover {
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+.url-display {
+    width: 300px; /* 3 inches */
+    min-height: 50px; /* 1/2 inch */
+    max-height: 100px; /* 1 inch */
+    border: 2px solid blue;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Or any height you need */
+  }

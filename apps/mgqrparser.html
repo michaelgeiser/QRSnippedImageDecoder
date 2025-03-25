@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code URL Parser</title>
+    <link rel="stylesheet" type="text/css" href="mgqrparser.css">
+    <script src="jsQR.js"></script>
+    <script src="mgqrparser.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>QR Snipped Image Decoder</h2>
+        <div id="qrPasteArea" class="qr-paste-area">
+            Use the Snipping Tool or other utility to copy a QR code from a YouTube video or somewhere else. 
+            <br> <br>
+            Then rollover this area and paste a QR image for a URL (Using CTRL-V) from the clipboard
+        </div>
+        <div id="urlDisplay" class="url-display" style="text-align: center;">
+            <div style="font-weight: bold;">Click to open the URL from the QR Code image: </div>
+            <div id="urlText" style="color: red;"></div>
+        </div>
+    </div>
+    <div class="footer"><img src="/images/GeiserSoft.svg" alt="GeiserSoft Logo" width="40px" height="40px">&nbsp; &nbsp; Copyright (c) 2025 - Michael Geiser</div>
+  </body>
+</html>
+
