@@ -48,7 +48,7 @@ To modify or enhance the extension:
 
 
 ### Project Structure
-'''
+```
 extension/
 ├── manifest.json
 ├── background.js
@@ -61,7 +61,7 @@ extension/
 ├── icon16.png
 ├── icon48.png
 └── icon128.png
-'''
+```
 
 ## Troubleshooting
 Common issues and solutions:
