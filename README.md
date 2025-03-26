@@ -50,8 +50,8 @@ To modify or enhance the extension:
 ### Project Structure
 ```
 extension/
-├──LICENSE
-├──README.md
+├── LICENSE
+├── README.md
 ├── manifest.json
 ├── apps/
 │ ├── background.js
