@@ -48,19 +48,22 @@ To modify or enhance the extension:
 
 
 ### Project Structure
+```
 extension/
+├── LICENSE
+├── README.md
 ├── manifest.json
-├── background.js
-├── content.js
-├── popup/
-│ ├── popup.html
-│ ├── popup.css
-│ └── popup.js
-└── icons/
-├── icon16.png
-├── icon48.png
-└── icon128.png
-
+├── apps/
+│ ├── background.js
+│ ├── mgqrparser.html
+│ ├── mgqrparser.css
+│ └── mgqrparser.js
+└── images/
+│ ├── GeiserSoft.svg
+│ ├── icon-16.png
+│ ├── icon-48.png
+│ └── icon-128.png
+```
 
 ## Troubleshooting
 Common issues and solutions:
