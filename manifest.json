@@ -6,9 +6,9 @@
     "action": {
         "default_popup": "apps/mgqrparser.html",
         "default_icon": {
-            "16": "images/icon.png",
-            "48": "images/icon.png",
-            "128": "images/icon.png"
+            "16": "images/icon-16.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
         }
     },
     "permissions": [
@@ -20,8 +20,8 @@
         "service_worker": "apps/background.js"
     },
     "icons": {
-        "16": "images/icon.png",
-        "48": "images/icon.png",
-        "128": "images/icon.png"
+        "16": "images/icon-16.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
     }
 }
