@@ -59,7 +59,7 @@ extension/
 │ ├── mgqrparser.css
 │ └── mgqrparser.js
 └── images/
-│ ├── GeiserSoft.svgg
+│ ├── GeiserSoft.svg
 │ ├── icon-16.png
 │ ├── icon-48.png
 │ └── icon-128.png
