@@ -13,7 +13,6 @@
     },
     "permissions": [
         "clipboardRead",
-        "tabs",
         "contextMenus"
     ],
     "background": {
