@@ -3,6 +3,14 @@ body {
     height: 500px; /* 5 inches at 100dpi */
     margin: 0;
     padding: 20px;
+    background-color: #ffffff;
+    background-image: linear-gradient(30deg, #f5f5f5 12%, transparent 12.5%, transparent 87%, #f5f5f5 87.5%, #f5f5f5),
+    linear-gradient(150deg, #f5f5f5 12%, transparent 12.5%, transparent 87%, #f5f5f5 87.5%, #f5f5f5),
+    linear-gradient(30deg, #f5f5f5 12%, transparent 12.5%, transparent 87%, #f5f5f5 87.5%, #f5f5f5),
+    linear-gradient(150deg, #f5f5f5 12%, transparent 12.5%, transparent 87%, #f5f5f5 87.5%, #f5f5f5);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px;
+
 }
 
 .qr-paste-area {
@@ -10,12 +18,13 @@ body {
     height: 300px; /* 3 inches */
     border: 2px dashed black;
     background-color: white;
-    margin: 20px auto;
+    margin: 20px auto 10px auto;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .qr-paste-area:hover {
@@ -24,16 +33,40 @@ body {
 }
 
 .url-display {
+    visibility: hidden; /* Initially hidden */
     width: 300px; /* 3 inches */
     min-height: 50px; /* 1/2 inch */
     max-height: 100px; /* 1 inch */
-    border: 2px solid blue;
-    margin: 10px auto;
-    text-align: center;
-    padding: 5px;
-    overflow-wrap: break-word;
+    background-color:#2196F3; /* A pleasant green color */
+    color: white;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 0 #1976D2; /* Creates 3D effect */
+    text-align: center;
+    top: 0;
+    margin: 0 auto 6px auto;
+    text-align: center;
+    width: fit-content;
+    display: block;
 }
+
+.url-display:hover {
+    background-color: #2196F2;
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #1976D1;
+}
+
+.url-display:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+
 
 .footer {
     display: flex;

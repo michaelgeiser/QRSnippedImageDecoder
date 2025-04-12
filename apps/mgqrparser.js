@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const defaultText = qrPasteArea.innerHTML;
     const hoverText = "Now use CRTL-V to paste the copied image of a QR code of a URL";
 
+
     qrPasteArea.addEventListener('mouseover', function() {
         if (!qrPasteArea.querySelector('img')) {
             qrPasteArea.innerHTML = hoverText;
@@ -31,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
             const code = jsQR(imageData.data, imageData.width, imageData.height);
-            
+           
             if (code) {
                 if (isValidUrl(code.data)) {
                     // Display the image in the paste area
@@ -42,10 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     displayImg.style.maxHeight = '100%';
                     displayImg.style.objectFit = 'contain';
                     qrPasteArea.appendChild(displayImg);
-                    
+                    urlDisplay.style.visibility  = 'visible';
                     urlText.textContent = code.data;
                 } else {
                     qrPasteArea.innerHTML = "Please post a valid QR code for a URL";
+                    urlDisplay.style.visibility = 'hidden';
                     urlText.textContent = '';
                 }
             } else {
