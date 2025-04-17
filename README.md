@@ -78,9 +78,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Licensed Products
-This project used the jsQR.js library found at https://github.com/cozmo/jsQR
-This library is an Apache 2.0 licensed library.
-jsQR.js license notice located here: https://github.com/cozmo/jsQR/blob/master/LICENSE
+- This project used the jsQR.js library found at https://github.com/cozmo/jsQR
+- This library is an Apache 2.0 licensed library.
+- jsQR.js license notice located here: https://github.com/cozmo/jsQR/blob/master/LICENSE
 
 ## Privacy
 This extension:
