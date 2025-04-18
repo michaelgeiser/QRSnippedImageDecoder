@@ -43,7 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     displayImg.style.maxHeight = '100%';
                     displayImg.style.objectFit = 'contain';
                     qrPasteArea.appendChild(displayImg);
-                    urlDisplay.style.visibility  = 'visible';
+                    
+                    // Update URL display
+                    urlDisplay.style.visibility = 'visible';
                     urlText.textContent = code.data;
                 } else {
                     qrPasteArea.innerHTML = "Please post a valid QR code for a URL";

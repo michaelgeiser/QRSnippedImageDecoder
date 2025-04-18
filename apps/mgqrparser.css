@@ -66,11 +66,36 @@ body {
     box-shadow: none;
 }
 
+#urlDisplay {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#urlDisplay p {
+    margin-bottom: 8px;
+}
+
+.open-url-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;  /* This centers the button horizontally */
+}
+
+.open-url-button:hover {
+    background-color: #0056b3;
+}
 
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 12px;
     height: 50px; /* Or any height you need */
   }

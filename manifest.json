@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "QR Code URL Parser",
     "description": "Parse URLs from QR code images pasted from clipboard",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "action": {
         "default_popup": "apps/mgqrparser.html",
         "default_icon": {
