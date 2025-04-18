@@ -92,8 +92,14 @@ This extension:
 For bugs, questions, and discussions please use the GitHub Issues page.
 
 ## Version History
-- 1.0.0: Initial release
+- 1.2.0: Initial release
   - Basic QR code decoding functionality
   - Context menu integration
   - Popup interface for results
-
+- 1.3.0: Update to look and feel
+  - Hid the "Open URL" button 
+  - Changed the appearance of the Open URL button
+  - Added a textured background
+- 1.4.0: Update to look and feel
+  - Moved the URL decoded from the QR Code to outside the button
+  - Changed the appearance of the Open URL button
